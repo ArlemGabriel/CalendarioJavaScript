@@ -1,5 +1,5 @@
 //Arrays de datos
-meses=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","setiembre","octubre","noviembre","diciembre"]
+meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"]
 lasemana=["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"]
 diassemana=["lun","mar","mié","jue","vie","sáb","dom"]
 

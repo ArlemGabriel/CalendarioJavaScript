@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#f1f1f1;
+    background-color:rgba(85, 85, 85, 0.199);
  }
 html {
     overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -34,7 +34,7 @@ html {
     font-weight: 400;
     font-size: 4em;
     line-height: 0px;
-    color: rgba(255, 255, 255, 0.658);
+    color: rgba(228, 228, 228, 0.973);
 }
 #nummesanno{
     font-family: 'Maven Pro', sans-serif;
@@ -53,9 +53,73 @@ html {
 .labelbusqueda{
     font-family: 'Maven Pro', sans-serif;
     font-weight: 300;
+    line-height: 0px;
+    color:white;
+}
+
+
+#calendario{
+    text-align: center;
+    width: 66%;
+    font-family: 'Maven Pro', sans-serif;
+    padding-top: 3em;
+    background-color: rgba(228, 228, 228, 0.973);
+}
+#cabeceracal{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: #555;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 0em;
+    text-align: center;
+}
+#movimiento{
+    width: fit-content;
+}
+#anterior{
+    width: 35.33%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4em;
+    color: #555;
+    background-color: rgba(228, 228, 228, 0.973);
+}
+#titulo{
+    width: 28%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6em;
+    color: crimson;
+    background-color: rgba(228, 228, 228, 0.973);
+    border-right: dodgerblue;
+    border-right-style: dotted;
+    border-left: dodgerblue;
+    border-left-style: dotted;
+    
+}
+#posterior{
+    width: 35.33%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4em;
+    color: #555;
+    background-color: rgba(228, 228, 228, 0.973);
+}
+#diasc{
+    background-color: white;
+    margin-top: 3em;
+}
+.theader{
+    background-color: #555;
+    width: 10em;
+    height: 3em;
     color: white;
 }
-#calendario{
-    background-color: wheat;
-    width: 66%;
+.tdvalues{
+    width: 10em;
+    height: 4.69em;
 }
