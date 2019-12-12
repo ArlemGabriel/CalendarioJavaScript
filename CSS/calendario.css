@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#f1f1f1;
+ }
+html {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll;
+}
+.column{
+    float: left;
+    width: 25%;
+    background-color:#f1f1f1;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#diadehoy{
+    background-color: dodgerblue;
+    width: 34%;
+    height: 30.9em;
+    text-align: center;
+    padding-top: 10em;
+}
+#buscafecha{
+    padding-top: 0em;
+
+}
+
+#diaactual{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    line-height: 0px;
+    color: rgba(255, 255, 255, 0.658);
+}
+#nummesanno{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300;
+    line-height: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+}
+#iconohoy{
+    vertical-align: middle;
+}
+#iconobuscar{
+    vertical-align: middle;
+}
+.labelbusqueda{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+#calendario{
+    background-color: wheat;
+    width: 66%;
+}
